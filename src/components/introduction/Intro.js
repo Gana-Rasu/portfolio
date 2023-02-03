@@ -1,5 +1,5 @@
 import "./Intro.css";
-import Me from './images/address.png';
+import Me from "../../images/html.avif";
 
 const Intro = () => {
   return (
@@ -15,7 +15,6 @@ const Intro = () => {
               <div className="i-title-item"> LIBRARY : REACT JS</div>
               <div className="i-title-item"> DATABASE : MONGO DB</div>
               <div className="i-title-item"> SERVER : NODE & EXPRESS JS</div>
-             
             </div>
           </div>
           <div className="i-desc">
@@ -26,7 +25,9 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        <img src={Me} alt="" className=""></img>
+        <div className="i-bg">
+        <img src="" alt="" className="i-img"></img>
+        </div>
       </div>
     </div>
   );
